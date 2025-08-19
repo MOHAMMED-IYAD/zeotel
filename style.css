@@ -79,11 +79,8 @@ body {
     list-style: none;
     text-decoration: none;
     color: var(--primary-color);
-    border: 2px black solid;
-    margin-left: auto;
+    margin-left: 50px;
     margin-right: auto;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 @media (max-width: 991.98px) {
