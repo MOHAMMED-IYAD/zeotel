@@ -84,9 +84,10 @@ body {
     font-weight: bolder;
 }
 
-@media (max-width: 991.98px) {
-    .navbar-nav {
-        margin-left: 20px !important;
+@media (max-width: 768px) {
+    .navbar-toggler {
+        margin-right: 0px !important;
+        margin-left: auto;
         text-align: center;
         gap: 10px;
     }
@@ -97,6 +98,9 @@ body {
   .navbar .logo {
     max-height: 30px;
     margin-left: 20px; 
+  }
+  .navbar .language {
+    margin-left: 50px;
   }
 }
 
