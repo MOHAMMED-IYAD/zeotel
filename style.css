@@ -628,9 +628,9 @@ NAVBAR */
         padding: 25px 50px;
     }
 
-    .contact .button {
-        padding: 20px 140px;
-    }
+   .contact .info button {
+     padding: 10px 123px;
+  }
 }
 
 /* CONTACT */
