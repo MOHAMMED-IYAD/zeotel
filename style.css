@@ -731,23 +731,28 @@ footer h2 {
 }
 
 
-.pdf-wrapper {
-  height: calc(100vh - 70px);
-}
+  .pdf-desktop {
+      height: calc(100vh - 120px);
+    }
 
-iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-}
+    .pdf-desktop iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
 
-.navbar {
-  background: #fff;
-}
+    @media (max-width: 768px) {
+      .pdf-desktop {
+        display: none;
+      }
 
-.download-bar {
-  text-align: center;
-  padding: 10px;
-  background: #f8f9fa;
-  margin-top: 20px;
-}
+      .pdf-mobile {
+        height: calc(100vh - 120px);
+      }
+
+      .pdf-mobile iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    }
